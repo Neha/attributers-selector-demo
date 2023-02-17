@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font: 18px arial,sans-serif;
+}
+
+footer{
+  background:#e09c1e;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  min-height: 200px;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer a{
+  color: #fff;
+  padding: 30px;
+  background-size: 20px;
+}
+
+footer h4 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+a[href^="http"] {
+    background: url(images/external.png) no-repeat left center;
+    background-size: 20px;
+}
+
+a[href*="facebook"] {
+   background: url(images/facebook.png) no-repeat left center;
+   background-size: 20px;
+}
+
+a[href*="twitter"] {
+    background: url(images/twitter.png) no-repeat left center;
+    background-size: 20px;
+}
+
+a[href*="instagram"] {
+    background: url(images/instagram.png) no-repeat left center;
+    background-size: 20px;
+}
+
+
+a[download$="pdf"] {
+    padding: 30px;
+    background: url(images/pdf.png) no-repeat left center;
+    background-size: 20px;
+}
+
+a[download$="jpg"] {
+    background: url(images/image.png) no-repeat left center;
+    background-size: 20px;
+}
